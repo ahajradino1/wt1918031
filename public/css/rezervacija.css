@@ -1,0 +1,109 @@
+.kalendar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  background: #fae1cf;
+  color: #af7a6d;
+  border: 2px solid #af7a6d;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons div {
+  width: 250px;
+}
+
+.rezervacije {
+  width: fit-content;
+  height: fit-content;
+  background: #fae1cf;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+#sale,
+#osoblje {
+  width: 150px;
+  color: #af7a6d;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+input[type="time"] {
+  color: #af7a6d;
+}
+
+.zauzeta,
+.slobodna,
+/* .not-prva,
+.sedmica, */
+.dani > td {
+  text-align: center;
+  border: 2px solid #af7a6d;
+  padding: 10px;
+  background: #fae1cf;
+}
+
+.zauzeta {
+  background: linear-gradient(
+    to bottom,
+    #fae1cf 0%,
+    #fae1cf 80%,
+    #ffa861 80%,
+    #ffa861 100%
+  );
+}
+
+.slobodna {
+  background: linear-gradient(
+    to bottom,
+    #fae1cf 0%,
+    #fae1cf 80%,
+    #8fdb81 80%,
+    #8fdb81 100%
+  );
+}
+
+.prikazi {
+  color: #efd5c3;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border-collapse: collapse;
+  }
+  .dani td,
+  .sedmica {
+    display: block;
+  }
+  table tr:not(.mjesec) {
+    display: table-cell;
+    vertical-align: bottom;
+  }
+  .not-prva,
+  .prikazi {
+    display: none;
+  }
+  .zauzeta:not(.not-prva),
+  .slobodna:not(.not-prva) {
+    width: 120px;
+    margin-left: 10px;
+  }
+  .buttons div {
+    width: 80px;
+  }
+}

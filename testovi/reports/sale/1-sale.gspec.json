@@ -1,0 +1,470 @@
+{
+  "testId" : "1-sale.gspec",
+  "name" : "sale.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  sale.gspec --url http://localhost/sale.html --size 1024x768 --htmlreport reports/sale",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: sale.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573601547254,
+          "sections" : [ {
+            "name" : "Svi elementi",
+            "place" : {
+              "filePath" : "sale.gspec",
+              "lineNumber" : 10
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "above sadrzaj 17px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "17px",
+                  "realDistance" : "17px"
+                } ],
+                "highlight" : [ "meni", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "inside screen 46px top, 8px left right",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "46px",
+                  "realDistance" : "46px"
+                }, {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "8px",
+                  "realDistance" : "8px"
+                }, {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "8px",
+                  "realDistance" : "8px"
+                } ],
+                "highlight" : [ "meni", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "centered horizontally inside screen 1px",
+                "highlight" : [ "meni", "screen" ]
+              } ]
+            }, {
+              "name" : "sadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "centered horizontally inside screen 1px",
+                "highlight" : [ "sadrzaj", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "inside screen 102px bottom, 8px left right",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "102px",
+                  "realDistance" : "102px"
+                }, {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "8px",
+                  "realDistance" : "8px"
+                }, {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "8px",
+                  "realDistance" : "8px"
+                } ],
+                "highlight" : [ "sadrzaj", "screen" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "centered horizontally inside screen 1px",
+                "highlight" : [ "logo", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "above sadrzaj",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "106px"
+                } ],
+                "highlight" : [ "logo", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "height 70px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "70px",
+                  "realDistance" : "70px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "inside screen 11px top, >= 8px left right",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "11px",
+                  "realDistance" : "11px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 8px",
+                  "realDistance" : "471px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "screen",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : ">= 8px",
+                  "realDistance" : "471px"
+                } ],
+                "highlight" : [ "logo", "screen" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "width 70px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "70px",
+                  "realDistance" : "70px"
+                } ],
+                "highlight" : [ "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Elementi menija",
+            "place" : {
+              "filePath" : "sale.gspec",
+              "lineNumber" : 27
+            },
+            "objects" : [ {
+              "name" : "lista",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "centered horizontally inside meni 1px",
+                "highlight" : [ "lista", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "height 38px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lista",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "lista",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "38px",
+                  "realDistance" : "38px"
+                } ],
+                "highlight" : [ "lista" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "inside meni 0px left right bottom",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lista",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "lista",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "lista",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "lista", "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Elementi sadrzaja",
+            "place" : {
+              "filePath" : "sale.gspec",
+              "lineNumber" : 33
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside sadrzaj 30px top bottom, 276px left, 278px right",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                }, {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                }, {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "276px",
+                  "realDistance" : "276px"
+                }, {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "278px",
+                  "realDistance" : "278px"
+                } ],
+                "highlight" : [ "tabela", "sadrzaj" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Elementi tabele",
+            "place" : {
+              "filePath" : "sale.gspec",
+              "lineNumber" : 37
+            },
+            "objects" : [ {
+              "name" : "kancelarija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "color-scheme 81% #bab6b3",
+                "highlight" : [ "kancelarija" ]
+              } ]
+            }, {
+              "name" : "slobodnaSala-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "sale.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "color-scheme 81% #8fdb81",
+                "highlight" : [ "slobodnaSala-1" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 8, 46, 996, 124 ]
+            },
+            "lista" : {
+              "area" : [ 8, 132, 996, 38 ]
+            },
+            "tabela" : {
+              "area" : [ 284, 217, 442, 339 ]
+            },
+            "slobodnaSala-1" : {
+              "area" : [ 366, 279, 72, 30 ]
+            },
+            "screen" : {
+              "area" : [ 0, 0, 1012, 688 ]
+            },
+            "logo" : {
+              "area" : [ 471, 11, 70, 70 ]
+            },
+            "sadrzaj" : {
+              "area" : [ 8, 187, 996, 399 ]
+            },
+            "kancelarija" : {
+              "area" : [ 438, 494, 72, 30 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573601543717,
+        "type" : "node"
+      } ],
+      "time" : 1573601538490,
+      "type" : "node"
+    } ]
+  }
+}

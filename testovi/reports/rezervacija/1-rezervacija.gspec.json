@@ -1,0 +1,539 @@
+{
+  "testId" : "1-rezervacija.gspec",
+  "name" : "rezervacija.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  rezervacija.gspec --url http://localhost/rezervacija.html --size 1024x768 --htmlreport reports/rezervacija",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: rezervacija.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573601482943,
+          "sections" : [ {
+            "name" : "Elementi sadrzaja",
+            "place" : {
+              "filePath" : "rezervacija.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "sadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "height 663px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "663px",
+                  "realDistance" : "663px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "periodicnost",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "below spisakSala",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "periodicnost",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "spisakSala",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "16px"
+                } ],
+                "highlight" : [ "periodicnost", "spisakSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "width 26px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "periodicnost",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "periodicnost",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "26px",
+                  "realDistance" : "26px"
+                } ],
+                "highlight" : [ "periodicnost" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "left-of sadrzaj -93px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "periodicnost",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-93px",
+                  "realDistance" : "-93px"
+                } ],
+                "highlight" : [ "periodicnost", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "inside sadrzaj 105px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "periodicnost",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "105px",
+                  "realDistance" : "105px"
+                } ],
+                "highlight" : [ "periodicnost", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "pocetak",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "above kraj 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "kraj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "pocetak", "kraj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "below periodicnost 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "periodicnost",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "pocetak", "periodicnost" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside sadrzaj 149px  top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "149px",
+                  "realDistance" : "149px"
+                } ],
+                "highlight" : [ "pocetak", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "pocetak",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "pocetak" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "width 72px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "pocetak",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "72px",
+                  "realDistance" : "72px"
+                } ],
+                "highlight" : [ "pocetak" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of sadrzaj -296px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "pocetak",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-296px",
+                  "realDistance" : "-296px"
+                } ],
+                "highlight" : [ "pocetak", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "kraj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "below pocetak 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kraj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "pocetak",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "kraj", "pocetak" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside sadrzaj 189px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kraj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "189px",
+                  "realDistance" : "189px"
+                } ],
+                "highlight" : [ "kraj", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kraj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "kraj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "kraj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "width 72px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kraj",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "kraj",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "72px",
+                  "realDistance" : "72px"
+                } ],
+                "highlight" : [ "kraj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "left-of sadrzaj -296px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kraj",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-296px",
+                  "realDistance" : "-296px"
+                } ],
+                "highlight" : [ "kraj", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "kalendar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "centered horizontally inside sadrzaj",
+                "highlight" : [ "kalendar", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "left-of sadrzaj -687px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kalendar",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-687px",
+                  "realDistance" : "-687px"
+                } ],
+                "highlight" : [ "kalendar", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside sadrzaj 286px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kalendar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "286px",
+                  "realDistance" : "286px"
+                } ],
+                "highlight" : [ "kalendar", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "height 292px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kalendar",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "kalendar",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "292px",
+                  "realDistance" : "292px"
+                } ],
+                "highlight" : [ "kalendar" ]
+              } ]
+            }, {
+              "name" : "spisakSala",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "spisakSala",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "spisakSala",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "spisakSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "height 19px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "spisakSala",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "spisakSala",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "19px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "spisakSala" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "left-of sadrzaj -295px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "spisakSala",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-295px",
+                  "realDistance" : "-295px"
+                } ],
+                "highlight" : [ "spisakSala", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "rezervacija.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "inside sadrzaj 70px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "spisakSala",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "70px",
+                  "realDistance" : "70px"
+                } ],
+                "highlight" : [ "spisakSala", "sadrzaj" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "kraj" : {
+              "area" : [ 232, 375, 72, 20 ]
+            },
+            "periodicnost" : {
+              "area" : [ 75, 291, 26, 26 ]
+            },
+            "spisakSala" : {
+              "area" : [ 153, 256, 150, 19 ]
+            },
+            "pocetak" : {
+              "area" : [ 232, 335, 72, 20 ]
+            },
+            "sadrzaj" : {
+              "area" : [ 8, 186, 978, 663 ]
+            },
+            "kalendar" : {
+              "area" : [ 299, 472, 396, 292 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573601479027,
+        "type" : "node"
+      } ],
+      "time" : 1573601473744,
+      "type" : "node"
+    } ]
+  }
+}

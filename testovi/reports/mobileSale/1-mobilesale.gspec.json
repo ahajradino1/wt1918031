@@ -1,0 +1,510 @@
+{
+  "testId" : "1-mobilesale.gspec",
+  "name" : "mobileSale.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobileSale.gspec --url http://localhost/sale.html --size 570x768 --htmlreport reports/mobileSale",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobileSale.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573600793796,
+          "sections" : [ {
+            "name" : "Lista block",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 7
+            },
+            "objects" : [ {
+              "name" : "element-liste-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above element-liste-5",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-4",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "element-liste-5",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "element-liste-4", "element-liste-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 542px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-4",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "element-liste-4",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "542px",
+                  "realDistance" : "542px"
+                } ],
+                "highlight" : [ "element-liste-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 29px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "element-liste-4",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "element-liste-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "centered horizontally inside meni",
+                "highlight" : [ "element-liste-4", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside meni 175px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "175px",
+                  "realDistance" : "175px"
+                } ],
+                "highlight" : [ "element-liste-4", "meni" ]
+              } ]
+            }, {
+              "name" : "element-liste-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 542px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "element-liste-1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "542px",
+                  "realDistance" : "542px"
+                } ],
+                "highlight" : [ "element-liste-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 29px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "element-liste-1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "element-liste-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "centered horizontally inside meni",
+                "highlight" : [ "element-liste-1", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "inside meni 86px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "86px",
+                  "realDistance" : "86px"
+                } ],
+                "highlight" : [ "element-liste-1", "meni" ]
+              } ]
+            }, {
+              "name" : "element-liste-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 542px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "element-liste-2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "542px",
+                  "realDistance" : "542px"
+                } ],
+                "highlight" : [ "element-liste-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 29px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "element-liste-2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "element-liste-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "centered horizontally inside meni",
+                "highlight" : [ "element-liste-2", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside meni 116px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "116px",
+                  "realDistance" : "116px"
+                } ],
+                "highlight" : [ "element-liste-2", "meni" ]
+              } ]
+            }, {
+              "name" : "element-liste-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 542px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "element-liste-3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "542px",
+                  "realDistance" : "542px"
+                } ],
+                "highlight" : [ "element-liste-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 29px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "element-liste-3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "element-liste-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "centered horizontally inside meni",
+                "highlight" : [ "element-liste-3", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "inside meni 145px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "145px",
+                  "realDistance" : "145px"
+                } ],
+                "highlight" : [ "element-liste-3", "meni" ]
+              } ]
+            }, {
+              "name" : "element-liste-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "width 542px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-5",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "element-liste-5",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "542px",
+                  "realDistance" : "542px"
+                } ],
+                "highlight" : [ "element-liste-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "height 29px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-5",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "element-liste-5",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "element-liste-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "centered horizontally inside meni",
+                "highlight" : [ "element-liste-5", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "inside meni 11px bottom",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-5",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "11px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "element-liste-5", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside meni 204px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "element-liste-5",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "204px",
+                  "realDistance" : "204px"
+                } ],
+                "highlight" : [ "element-liste-5", "meni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Neprikazane celije tabele",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 35
+            },
+            "objects" : [ {
+              "name" : "headerSprat",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "headerRedni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "absent",
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "Meni",
+            "place" : {
+              "filePath" : "mobileSale.gspec",
+              "lineNumber" : 39
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileSale.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside viewport 46px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "meni",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "46px",
+                  "realDistance" : "46px"
+                } ],
+                "highlight" : [ "meni", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 8, 46, 542, 244 ]
+            },
+            "element-liste-5" : {
+              "area" : [ 8, 250, 542, 29 ]
+            },
+            "element-liste-4" : {
+              "area" : [ 8, 221, 542, 29 ]
+            },
+            "element-liste-3" : {
+              "area" : [ 8, 191, 542, 29 ]
+            },
+            "element-liste-2" : {
+              "area" : [ 8, 162, 542, 29 ]
+            },
+            "element-liste-1" : {
+              "area" : [ 8, 132, 542, 29 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 558, 688 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573600791814,
+        "type" : "node"
+      } ],
+      "time" : 1573600787260,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "testId" : "1-unos.gspec",
+  "name" : "unos.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  unos.gspec --url http://localhost/unos.html --size 1024x768 --htmlreport reports/unos",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: unos.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573601758320,
+          "sections" : [ {
+            "name" : "Sadrzaj",
+            "place" : {
+              "filePath" : "unos.gspec",
+              "lineNumber" : 9
+            },
+            "objects" : [ {
+              "name" : "odgovornaOsoba",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 11
+                },
+                "name" : "above sprat 19px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "19px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "odgovornaOsoba", "sprat" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "below brojMjesta 19px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "19px",
+                  "realDistance" : "19px"
+                } ],
+                "highlight" : [ "odgovornaOsoba", "brojMjesta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "odgovornaOsoba" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "odgovornaOsoba" ]
+              } ]
+            }, {
+              "name" : "naziv",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "above brojMjesta 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "naziv", "brojMjesta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "naziv" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "naziv" ]
+              } ]
+            }, {
+              "name" : "brojMjesta",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "brojMjesta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "width 149px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "149px",
+                  "realDistance" : "149px"
+                } ],
+                "highlight" : [ "brojMjesta" ]
+              } ]
+            }, {
+              "name" : "sprat",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "sprat" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "sprat" ]
+              } ]
+            }, {
+              "name" : "labela-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "labela-1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "labela-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "labela-1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "labela-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "above labela-2 21px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "labela-2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "21px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "labela-1", "labela-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "left-of naziv 4px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-1",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "4px",
+                  "realDistance" : "4px"
+                } ],
+                "highlight" : [ "labela-1", "naziv" ]
+              } ]
+            }, {
+              "name" : "labela-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "labela-2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "labela-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "labela-2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "labela-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "above labela-3 21px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-2",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "labela-3",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "21px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "labela-2", "labela-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "left-of brojMjesta 4px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-2",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "4px",
+                  "realDistance" : "4px"
+                } ],
+                "highlight" : [ "labela-2", "brojMjesta" ]
+              } ]
+            }, {
+              "name" : "labela-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "labela-3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "labela-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "labela-3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "labela-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "above labela-4 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-3",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "labela-4",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "labela-3", "labela-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "left-of odgovornaOsoba 4px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-3",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "4px",
+                  "realDistance" : "4px"
+                } ],
+                "highlight" : [ "labela-3", "odgovornaOsoba" ]
+              } ]
+            }, {
+              "name" : "labela-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-4",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "labela-4",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "labela-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "labela-4",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "labela-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "left-of sprat 4px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labela-4",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "4px",
+                  "realDistance" : "4px"
+                } ],
+                "highlight" : [ "labela-4", "sprat" ]
+              } ]
+            }, {
+              "name" : "unos",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "below labela-4 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "unos",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "labela-4",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "unos", "labela-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "height 36px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "unos",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "unos",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "36px",
+                  "realDistance" : "36px"
+                } ],
+                "highlight" : [ "unos" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "unos",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "unos",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "unos" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "unos.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "left-of viewport -228px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "unos",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-228px",
+                  "realDistance" : "-228px"
+                } ],
+                "highlight" : [ "unos", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "odgovornaOsoba" : {
+              "area" : [ 232, 334, 143, 20 ]
+            },
+            "sprat" : {
+              "area" : [ 232, 373, 143, 20 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 1012, 688 ]
+            },
+            "naziv" : {
+              "area" : [ 232, 257, 143, 20 ]
+            },
+            "labela-1" : {
+              "area" : [ 78, 257, 150, 18 ]
+            },
+            "labela-2" : {
+              "area" : [ 78, 296, 150, 18 ]
+            },
+            "brojMjesta" : {
+              "area" : [ 232, 295, 149, 20 ]
+            },
+            "labela-3" : {
+              "area" : [ 78, 335, 150, 18 ]
+            },
+            "unos" : {
+              "area" : [ 78, 411, 150, 36 ]
+            },
+            "labela-4" : {
+              "area" : [ 78, 373, 150, 18 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1573601755611,
+        "type" : "node"
+      } ],
+      "time" : 1573601750392,
+      "type" : "node"
+    } ]
+  }
+}

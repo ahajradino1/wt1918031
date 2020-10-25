@@ -1,0 +1,46 @@
+@objects
+    sadrzaj .sadrzaj
+    spisakSala select
+    periodicnost input[type="checkbox"]
+    pocetak #pocetak
+    kraj #kraj
+    kalendar .kalendar
+
+= Elementi sadrzaja =
+    sadrzaj:
+        height 663px
+
+    periodicnost:
+        below spisakSala
+        width 26px
+        left-of sadrzaj -93px
+        inside sadrzaj 105px top
+    
+    pocetak:
+        above kraj 20px
+        below periodicnost 18px
+        inside sadrzaj 149px  top
+
+    kraj:
+        below pocetak 20px
+        inside sadrzaj 189px top
+
+    pocetak, kraj:
+        height 20px
+        width 72px
+        left-of sadrzaj -296px
+        
+    kalendar:
+        centered horizontally inside sadrzaj
+        left-of sadrzaj -687px
+        inside sadrzaj 286px top
+        height 292px
+
+    spisakSala:
+        width 150px
+        height 19px
+        left-of sadrzaj -295px
+        inside sadrzaj 70px top
+
+
+

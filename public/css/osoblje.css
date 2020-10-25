@@ -1,0 +1,20 @@
+#osobe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background: #af7a6d;
+  border: 2px groove #af7a6d;
+  color: #efd5c3;
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  width: 200px;
+  padding: 5px;
+  text-align: left;
+  border: 2px groove #a5978b;
+}

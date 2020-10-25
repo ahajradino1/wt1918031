@@ -1,0 +1,910 @@
+{
+  "testId" : "1-mobileunos.gspec",
+  "name" : "mobileUnos.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Mutation test",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobileUnos.gspec --url http://localhost/unos.html --size 570x768 --offset 5 --htmlreport mutation-report/mobileUnos",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobileUnos.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573600986394,
+          "sections" : [ {
+            "name" : "Forma block",
+            "place" : {
+              "filePath" : "mobileUnos.gspec",
+              "lineNumber" : 8
+            },
+            "objects" : [ {
+              "name" : "label-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 10
+                },
+                "name" : "above naziv",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "1px"
+                } ],
+                "highlight" : [ "label-1", "naziv" ]
+              } ]
+            }, {
+              "name" : "label-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "above brojMjesta",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-2",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "label-2", "brojMjesta" ]
+              } ]
+            }, {
+              "name" : "label-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "above odgovornaOsoba",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-3",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "1px"
+                } ],
+                "highlight" : [ "label-3", "odgovornaOsoba" ]
+              } ]
+            }, {
+              "name" : "label-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "above sprat",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-4",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "1px"
+                } ],
+                "highlight" : [ "label-4", "sprat" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Forma",
+            "place" : {
+              "filePath" : "mobileUnos.gspec",
+              "lineNumber" : 21
+            },
+            "objects" : [ {
+              "name" : "label-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "label-1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "label-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "label-1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "label-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "centered horizontally inside viewport 235px",
+                "highlight" : [ "label-1", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "left-of viewport -228px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-1",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-228px",
+                  "realDistance" : "-228px"
+                } ],
+                "highlight" : [ "label-1", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "inside viewport 374px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "374px",
+                  "realDistance" : "374px"
+                } ],
+                "highlight" : [ "label-1", "viewport" ]
+              } ]
+            }, {
+              "name" : "label-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "label-2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "label-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "label-2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "label-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "centered horizontally inside viewport 235px",
+                "highlight" : [ "label-2", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "left-of viewport -228px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-2",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-228px",
+                  "realDistance" : "-228px"
+                } ],
+                "highlight" : [ "label-2", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside viewport 432px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "432px",
+                  "realDistance" : "432px"
+                } ],
+                "highlight" : [ "label-2", "viewport" ]
+              } ]
+            }, {
+              "name" : "label-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "label-3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "label-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "label-3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "label-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "centered horizontally inside viewport 235px",
+                "highlight" : [ "label-3", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "left-of viewport -228px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-3",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-228px",
+                  "realDistance" : "-228px"
+                } ],
+                "highlight" : [ "label-3", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside viewport 489px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "489px",
+                  "realDistance" : "489px"
+                } ],
+                "highlight" : [ "label-3", "viewport" ]
+              } ]
+            }, {
+              "name" : "label-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "width 150px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-4",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "label-4",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "150px",
+                  "realDistance" : "150px"
+                } ],
+                "highlight" : [ "label-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "height 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "label-4",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "label-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "centered horizontally inside viewport 235px",
+                "highlight" : [ "label-4", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "left-of viewport -228px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-4",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-228px",
+                  "realDistance" : "-228px"
+                } ],
+                "highlight" : [ "label-4", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "inside viewport 546px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "label-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "546px",
+                  "realDistance" : "546px"
+                } ],
+                "highlight" : [ "label-4", "viewport" ]
+              } ]
+            }, {
+              "name" : "naziv",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "right-of viewport -463px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "-463px",
+                  "realDistance" : "-463px"
+                } ],
+                "highlight" : [ "naziv", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "naziv" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "naziv",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "naziv" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "inside viewport 393px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "naziv",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "393px",
+                  "realDistance" : "393px"
+                } ],
+                "highlight" : [ "naziv", "viewport" ]
+              } ]
+            }, {
+              "name" : "brojMjesta",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "right-of viewport -463px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "-463px",
+                  "realDistance" : "-463px"
+                } ],
+                "highlight" : [ "brojMjesta", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "brojMjesta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "width 149px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "brojMjesta",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "149px",
+                  "realDistance" : "149px"
+                } ],
+                "highlight" : [ "brojMjesta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "inside viewport 450px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "brojMjesta",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "450px",
+                  "realDistance" : "450px"
+                } ],
+                "highlight" : [ "brojMjesta", "viewport" ]
+              } ]
+            }, {
+              "name" : "odgovornaOsoba",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "right-of viewport -463px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "-463px",
+                  "realDistance" : "-463px"
+                } ],
+                "highlight" : [ "odgovornaOsoba", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "odgovornaOsoba" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "odgovornaOsoba" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "inside viewport 508px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odgovornaOsoba",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "508px",
+                  "realDistance" : "508px"
+                } ],
+                "highlight" : [ "odgovornaOsoba", "viewport" ]
+              } ]
+            }, {
+              "name" : "sprat",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "right-of viewport -463px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "-463px",
+                  "realDistance" : "-463px"
+                } ],
+                "highlight" : [ "sprat", "viewport" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "sprat" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "width 143px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sprat",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "143px",
+                  "realDistance" : "143px"
+                } ],
+                "highlight" : [ "sprat" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobileUnos.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "inside viewport 565px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sprat",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "viewport",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "565px",
+                  "realDistance" : "565px"
+                } ],
+                "highlight" : [ "sprat", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "odgovornaOsoba" : {
+              "area" : [ 78, 508, 143, 20 ]
+            },
+            "label-4" : {
+              "area" : [ 78, 546, 150, 18 ]
+            },
+            "label-3" : {
+              "area" : [ 78, 489, 150, 18 ]
+            },
+            "sprat" : {
+              "area" : [ 78, 565, 143, 20 ]
+            },
+            "label-2" : {
+              "area" : [ 78, 432, 150, 18 ]
+            },
+            "label-1" : {
+              "area" : [ 78, 374, 150, 18 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 541, 688 ]
+            },
+            "naziv" : {
+              "area" : [ 78, 393, 143, 20 ]
+            },
+            "brojMjesta" : {
+              "area" : [ 78, 450, 149, 20 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        }, {
+          "name" : "Mutation testing: mobileUnos.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573600986394,
+          "mutationReport" : {
+            "objectMutationStatistics" : {
+              "odgovornaOsoba" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "label-4" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "label-3" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "sprat" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "label-2" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "label-1" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "naziv" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "brojMjesta" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              }
+            },
+            "totalPassed" : 80,
+            "totalFailed" : 0,
+            "totalMutations" : 80,
+            "failedRatio" : 0.0
+          },
+          "type" : "mutation"
+        } ],
+        "time" : 1573600982946,
+        "type" : "node"
+      } ],
+      "time" : 1573600978606,
+      "type" : "node"
+    } ]
+  }
+}

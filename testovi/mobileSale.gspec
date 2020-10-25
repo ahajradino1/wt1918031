@@ -1,0 +1,41 @@
+@objects 
+  meni .meni
+  element-liste-* .meni ul li
+  headerSprat .sadrzaj .tabelaSala .headerSprat
+  headerRedni .sadrzaj .tabelaSala .headerRedni
+
+= Lista block =
+  @for [1 -4] as index
+  element-liste-${index}:
+    above element-liste-${index+1}
+
+  element-liste-*:
+    width 542px
+    height 29px
+    centered horizontally inside meni
+
+  element-liste-1:
+    inside meni 86px top
+
+  element-liste-5:
+    inside meni 11px bottom
+  
+  element-liste-2:
+    inside meni 116px top
+  
+  element-liste-3:
+    inside meni 145px top
+  
+  element-liste-4:
+    inside meni 175px top
+  
+  element-liste-5:
+    inside meni 204px top
+
+= Neprikazane celije tabele =
+  headerSprat, headerRedni:
+    absent
+
+= Meni =
+  meni:
+    inside viewport 46px top

@@ -1,0 +1,31 @@
+.forma {
+  width: fit-content;
+  height: fit-content;
+  background: #fae1cf;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+#unos {
+  background: #efd5c3;
+  color: #af7a6d;
+  border: 2px solid #af7a6d;
+  border-radius: 5px;
+  padding: 8px;
+  width: 150px;
+}
+
+input {
+  color: #af7a6d;
+}
+
+@media screen and (max-width: 600px) {
+  label {
+    display: block;
+  }
+}

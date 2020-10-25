@@ -1,0 +1,1008 @@
+{
+  "testId" : "1-mobilepocetna.gspec",
+  "name" : "mobilePocetna.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Mutation test",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mobilePocetna.gspec --url http://localhost/pocetna.html --size 570x768 --offset 5 --htmlreport mutation-report/mobilePocetna",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mobilePocetna.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573600426830,
+          "sections" : [ {
+            "name" : "Umanjene slike",
+            "place" : {
+              "filePath" : "mobilePocetna.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "slike-1",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-1",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-1",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-1",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-1",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-1" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-1",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-1", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 12
+                },
+                "name" : "near sadrzaj -300px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-1",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-300px",
+                  "realDistance" : "-300px"
+                } ],
+                "highlight" : [ "slike-1", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-2",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-2", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 15
+                },
+                "name" : "near sadrzaj -600px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-2",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-600px",
+                  "realDistance" : "-600px"
+                } ],
+                "highlight" : [ "slike-2", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-3",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-3", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "near sadrzaj -900px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-3",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-900px",
+                  "realDistance" : "-900px"
+                } ],
+                "highlight" : [ "slike-3", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-4",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-4",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-4",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-4",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-4",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-4" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-4",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-4", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "near sadrzaj -1200px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-4",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1200px",
+                  "realDistance" : "-1200px"
+                } ],
+                "highlight" : [ "slike-4", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-5",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-5",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-5",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-5",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-5",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-5" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-5",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-5", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "near sadrzaj -1500px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-5",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1500px",
+                  "realDistance" : "-1500px"
+                } ],
+                "highlight" : [ "slike-5", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-6",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-6",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-6",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-6",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-6",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-6" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-6",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-6", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 27
+                },
+                "name" : "near sadrzaj -1800px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-6",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-1800px",
+                  "realDistance" : "-1800px"
+                } ],
+                "highlight" : [ "slike-6", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-7",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-7",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-7",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-7",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-7",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-7" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-7",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-7", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "near sadrzaj -2100px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-7",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-2100px",
+                  "realDistance" : "-2100px"
+                } ],
+                "highlight" : [ "slike-7", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-8",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-8",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-8",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-8",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-8",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-8" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-8",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-8", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "near sadrzaj -2400px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-8",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-2400px",
+                  "realDistance" : "-2400px"
+                } ],
+                "highlight" : [ "slike-8", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-9",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-9",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-9",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-9",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-9",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-9" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-9",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-9", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "near sadrzaj -2700px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-9",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-2700px",
+                  "realDistance" : "-2700px"
+                } ],
+                "highlight" : [ "slike-9", "sadrzaj" ]
+              } ]
+            }, {
+              "name" : "slike-10",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "width 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-10",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "slike-10",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 8
+                },
+                "name" : "height 240px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-10",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "slike-10",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                } ],
+                "highlight" : [ "slike-10" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "left-of sadrzaj -382px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-10",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "-382px",
+                  "realDistance" : "-382px"
+                } ],
+                "highlight" : [ "slike-10", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "near sadrzaj -3000px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "slike-10",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "-3000px",
+                  "realDistance" : "-3000px"
+                } ],
+                "highlight" : [ "slike-10", "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "aligned vertically all slike-1",
+                "highlight" : [ "slike-10", "slike-1" ]
+              } ]
+            }, {
+              "name" : "sadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "height 3060px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sadrzaj",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sadrzaj",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "3060px",
+                  "realDistance" : "3060px"
+                } ],
+                "highlight" : [ "sadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mobilePocetna.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "centered horizontally inside viewport",
+                "highlight" : [ "sadrzaj", "viewport" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "slike-4" : {
+              "area" : [ 150, 1264, 240, 240 ]
+            },
+            "slike-3" : {
+              "area" : [ 150, 964, 240, 240 ]
+            },
+            "slike-6" : {
+              "area" : [ 150, 1864, 240, 240 ]
+            },
+            "slike-5" : {
+              "area" : [ 150, 1564, 240, 240 ]
+            },
+            "slike-8" : {
+              "area" : [ 150, 2464, 240, 240 ]
+            },
+            "slike-7" : {
+              "area" : [ 150, 2164, 240, 240 ]
+            },
+            "slike-10" : {
+              "area" : [ 150, 3064, 240, 240 ]
+            },
+            "viewport" : {
+              "area" : [ 0, 0, 541, 688 ]
+            },
+            "slike-9" : {
+              "area" : [ 150, 2764, 240, 240 ]
+            },
+            "sadrzaj" : {
+              "area" : [ 8, 304, 524, 3060 ]
+            },
+            "slike-2" : {
+              "area" : [ 150, 664, 240, 240 ]
+            },
+            "slike-1" : {
+              "area" : [ 150, 364, 240, 240 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        }, {
+          "name" : "Mutation testing: mobilePocetna.gspec included tags: ",
+          "status" : "info",
+          "time" : 1573600426830,
+          "mutationReport" : {
+            "objectMutationStatistics" : {
+              "slike-4" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-3" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-6" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-5" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-8" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-7" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-10" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-9" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "sadrzaj" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-2" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              },
+              "slike-1" : {
+                "passed" : 10,
+                "failed" : 0,
+                "failedMutations" : [ ]
+              }
+            },
+            "totalPassed" : 110,
+            "totalFailed" : 0,
+            "totalMutations" : 110,
+            "failedRatio" : 0.0
+          },
+          "type" : "mutation"
+        } ],
+        "time" : 1573600422172,
+        "type" : "node"
+      } ],
+      "time" : 1573600417632,
+      "type" : "node"
+    } ]
+  }
+}

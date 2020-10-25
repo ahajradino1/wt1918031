@@ -1,0 +1,58 @@
+@objects
+    meni .meni
+    logo .meni .logo
+    sadrzaj .sadrzaj
+    slika-* .sadrzaj img
+
+= Slike = 
+    sadrzaj:
+        count any slika-* is 10
+
+    slika-*:
+        width 300px
+        height 300px
+
+= Sadrzaj =
+
+    slika-1:
+        aligned horizontally all slika-2
+        aligned horizontally all slika-3
+        aligned vertically all slika-4
+        aligned vertically all slika-7
+        aligned vertically all slika-10
+
+    slika-4:
+        aligned horizontally all slika-5
+        aligned horizontally all slika-6
+
+    slika-7:
+        aligned horizontally all slika-8
+        aligned horizontally all slika-9
+
+    slika-2:
+        aligned vertically all slika-5
+        aligned vertically all slika-8
+
+    slika-3:
+        aligned vertically all slika-6
+        aligned vertically all slika-9
+    
+    slika-10:
+        near viewport -1416px top
+
+= Logo i meni =
+    logo:
+        above meni -35px
+        height 70px
+        width 70px
+        left-of meni -524px
+        near meni -35px top   
+    meni:
+        width 978px
+        height 124px
+
+
+
+
+
+

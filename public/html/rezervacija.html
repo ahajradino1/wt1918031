@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/sale.css" />
+    <link rel="stylesheet" href="../css/rezervacija.css" />
+    <title>Rezervacije</title>
+  </head>
+  <body>
+    <div class="meni">
+      <div class="logo">
+        <img src="../logo.jpg" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="../html/pocetna.html">Početna</a></li>
+        <li><a href="../html/sale.html">Sale</a></li>
+        <li><a href="../html/unos.html">Unos</a></li>
+        <li>
+          <a href="../html/rezervacija.html" class="trenutna">Rezervacije</a>
+        </li>
+        <li><a href="../html/osoblje.html">Osobe</a></li>
+      </ul>
+    </div>
+    <div class="sadrzaj" id="nesto">
+      <div class="rezervacije">
+        Spisak sala
+        <select name="sale" id="sale">
+          <!-- <option value="0-01">0-01</option>
+          <option value="1-01">1-01</option>
+          <option value="0-02">0-02</option>
+          <option value="1-02">1-02</option>
+          <option value="0-03">0-03</option>
+          <option value="1-03">1-03</option>
+          <option value="0-04">0-04</option>
+          <option value="1-04">1-04</option>
+          <option value="0-05">0-05</option>
+          <option value="1-05">1-05</option>
+          <option value="0-06">0-06</option>
+          <option value="1-06">1-06</option>
+          <option value="0-07">0-07</option>
+          <option value="1-07">1-07</option>
+          <option value="0-08">0-08</option>
+          <option value="1-08">1-08</option>
+          <option value="0-09">0-09</option>
+          <option value="1-09">1-09</option>
+          <option value="VA1">VA1</option>
+          <option value="VA2">VA2</option>
+          <option value="MA">MA</option>
+          <option value="EE1">EE1</option>
+          <option value="EE2">EE2</option> -->
+        </select>
+        <br />
+        <br />
+        Osoblje
+        <select name="osoblje" id="osoblje"> </select>
+        <br />
+        <br />
+        <input type="checkbox" id="periodicnost" name="periodicna" value="DA" />
+        Rezervacija je periodična
+        <br />
+        <br />
+        <label for="pocetak">Početak rezervacije</label>
+        <input type="time" name="pocetak" id="pocetak" />
+        <br />
+        <br />
+        <label for="kraj">Kraj rezervacije</label>
+        <input type="time" name="kraj" id="kraj" />
+      </div>
+      <br />
+      <br />
+      <table class="kalendar">
+        <tr class="mjesec">
+          <th colspan="7">NOVEMBAR</th>
+        </tr>
+        <tr class="dani">
+          <td>PON</td>
+          <td>UTO</td>
+          <td>SRI</td>
+          <td>ČET</td>
+          <td>PET</td>
+          <td>SUB</td>
+          <td>NED</td>
+        </tr>
+        <tr>
+          <td class="prikazi">a</td>
+          <td class="prikazi">b</td>
+          <td class="prikazi">ad</td>
+          <td class="prikazi">aa</td>
+          <td class="slobodna not-prva">1</td>
+          <td class="slobodna not-prva">2</td>
+          <td class="slobodna not-prva">3</td>
+        </tr>
+        <tr>
+          <td class="slobodna sedmica">4</td>
+          <td class="zauzeta sedmica">5</td>
+          <td class="slobodna sedmica">6</td>
+          <td class="slobodna sedmica">7</td>
+          <td class="slobodna sedmica">8</td>
+          <td class="slobodna sedmica">9</td>
+          <td class="slobodna sedmica">10</td>
+        </tr>
+        <tr>
+          <td class="slobodna not-prva">11</td>
+          <td class="zauzeta not-prva">12</td>
+          <td class="slobodna not-prva">13</td>
+          <td class="slobodna not-prva">14</td>
+          <td class="slobodna not-prva">15</td>
+          <td class="slobodna not-prva">16</td>
+          <td class="slobodna not-prva">17</td>
+        </tr>
+        <tr>
+          <td class="slobodna not-prva">18</td>
+          <td class="zauzeta not-prva">19</td>
+          <td class="slobodna not-prva">20</td>
+          <td class="slobodna not-prva">21</td>
+          <td class="slobodna not-prva">22</td>
+          <td class="slobodna not-prva">23</td>
+          <td class="slobodna not-prva">24</td>
+        </tr>
+        <tr>
+          <td class="slobodna not-prva">25</td>
+          <td class="zauzeta not-prva">26</td>
+          <td class="slobodna not-prva">27</td>
+          <td class="slobodna not-prva">28</td>
+          <td class="slobodna not-prva">29</td>
+          <td class="slobodna not-prva">30</td>
+          <td class="prikazi">aa</td>
+        </tr>
+      </table>
+
+      <br />
+      <div class="buttons">
+        <button id="prethodni" onclick="prethodni(this)">Prethodni</button>
+        <div></div>
+        <button id="sljedeci" onclick="sljedeci(this)">Sljedeći</button>
+      </div>
+    </div>
+    <script src="../js/kalendar.js"></script>
+    <script src="../pozivi.js"></script>
+    <script src="../rezervacija.js"></script>
+  </body>
+</html>

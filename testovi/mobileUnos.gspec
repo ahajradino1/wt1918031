@@ -1,0 +1,62 @@
+@objects
+  label-* label
+  naziv #naziv
+  brojMjesta #brojMjesta
+  odgovornaOsoba #odgovornaOsoba
+  sprat #sprat
+
+= Forma block = 
+  label-1:
+    above naziv
+
+  label-2:
+    above brojMjesta
+  
+  label-3:
+    above odgovornaOsoba
+ 
+  label-4:
+    above sprat
+
+= Forma =
+  label-*:
+    width 150px
+    height 18px
+    centered horizontally inside viewport 235px
+    left-of viewport -228px
+
+  label-1:
+    inside viewport 374px top
+
+  label-2:
+    inside viewport 432px top
+  
+  label-3:
+    inside viewport 489px top
+
+  label-4:
+    inside viewport 546px top
+
+  naziv, brojMjesta, odgovornaOsoba, sprat:
+    right-of viewport -463px
+
+  naziv, brojMjesta, odgovornaOsoba, sprat:
+    height 20px
+  
+  naziv, odgovornaOsoba, sprat:
+    width 143px
+
+  brojMjesta:
+    width 149px
+
+  naziv:
+    inside viewport 393px top
+
+  brojMjesta:
+    inside viewport 450px top
+
+  odgovornaOsoba:
+    inside viewport 508px top
+
+  sprat:
+    inside viewport 565px top

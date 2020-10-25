@@ -1,0 +1,42 @@
+@objects
+    meni .meni
+    logo .meni .logo
+    lista .meni ul 
+    sadrzaj .sadrzaj
+    tabela .sadrzaj .tabelaSala
+    kancelarija .sadrzaj .tabelaSala .kancelarija
+    slobodnaSala-* .sadrzaj .tabelaSala .slobodnaSala
+
+= Svi elementi =
+    meni:
+        above sadrzaj 17px
+        inside screen 46px top, 8px left right
+
+    meni, sadrzaj, logo:
+        centered horizontally inside screen 1px
+
+    logo:
+        above sadrzaj
+        height 70px
+        inside screen 11px top, >= 8px left right
+        width 70px
+
+    sadrzaj:
+        inside screen 102px bottom, 8px left right
+
+= Elementi menija =
+    lista:
+        centered horizontally inside meni 1px
+        height 38px
+        inside meni 0px left right bottom
+
+= Elementi sadrzaja =
+    tabela:
+        inside sadrzaj 30px top bottom, 276px left, 278px right
+
+= Elementi tabele =
+    kancelarija:
+        color-scheme 81% #bab6b3
+    slobodnaSala-*:
+        color-scheme 81% #8fdb81    
+

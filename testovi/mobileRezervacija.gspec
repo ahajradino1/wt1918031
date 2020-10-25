@@ -1,0 +1,42 @@
+@objects
+    dani-* .kalendar .dani td
+    prikazane-celije-* .kalendar .sedmica 
+
+= Ispravljeni kalendar =
+    @for [1 - 6] as index
+    prikazane-celije-${index}:
+        above prikazane-celije-${index+1}
+    dani-${index}:
+        above dani-${index+1}
+
+= Elementi kalendara = 
+    dani-*:
+        width 56px
+        height 42px
+        right-of viewport -377px
+
+    prikazane-celije-*:
+        width 144px
+        height 42px
+        right-of viewport -310px
+
+    prikazane-celije-1, dani-1:
+        near viewport -653px top
+
+    prikazane-celije-7, dani-7:
+        near viewport -909px top
+    
+    prikazane-celije-2, dani-2:
+        near viewport -695px top
+    
+    prikazane-celije-3, dani-3:
+        near viewport -738px top
+
+    prikazane-celije-4, dani-4:
+        near viewport -781px top
+
+    prikazane-celije-5, dani-5:
+        near viewport -823px top
+    
+    prikazane-celije-6, dani-6:
+        near viewport -866px top

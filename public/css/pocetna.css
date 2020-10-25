@@ -1,0 +1,46 @@
+.sadrzaj {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+}
+
+.sadrzaj img {
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  background: #fae1cf;
+  color: #af7a6d;
+  border: 2px solid #af7a6d;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.buttons {
+  background: #efd5c3;
+  color: #5a2a27;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons div {
+  width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  .sadrzaj > img {
+    transform: scale(0.8);
+  }
+  .sadrzaj {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sadrzaj {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

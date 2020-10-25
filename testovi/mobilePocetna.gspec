@@ -1,0 +1,49 @@
+@objects
+   sadrzaj .sadrzaj
+   slike-* .sadrzaj img
+
+= Umanjene slike = 
+   slike-*:
+      width 240px
+      height 240px
+      left-of sadrzaj -382px
+   
+   slike-1:
+      near sadrzaj -300px top
+   
+   slike-2:
+      near sadrzaj -600px top
+   
+   slike-3:
+      near sadrzaj -900px top
+   
+   slike-4:
+      near sadrzaj -1200px top
+   
+   slike-5:
+      near sadrzaj -1500px top
+   
+   slike-6:
+      near sadrzaj -1800px top
+   
+   slike-7:
+      near sadrzaj -2100px top
+   
+   slike-8:
+      near sadrzaj -2400px top
+   
+   slike-9:
+      near sadrzaj -2700px top
+   
+   slike-10:
+      near sadrzaj -3000px top
+
+   @for [2 - 10] as index
+   slike-${index}:
+      aligned vertically all slike-1
+
+   = Sadrzaj =
+   sadrzaj:
+      height 3060px
+      centered horizontally inside viewport 
+

@@ -1,0 +1,49 @@
+@objects
+    labela-* .sadrzaj .forma label
+    naziv .sadrzaj .forma #naziv
+    brojMjesta input[type="number"]
+    odgovornaOsoba input[type="email"]
+    sprat .sadrzaj .forma #sprat
+    unos input[type="submit"]
+
+= Sadrzaj =
+    odgovornaOsoba:
+        above sprat 19px
+        below brojMjesta 19px
+
+    naziv:
+        above brojMjesta 18px
+
+    naziv, brojMjesta, odgovornaOsoba, sprat:
+        height 20px
+
+    naziv, odgovornaOsoba, sprat:
+        width 143px
+    
+    brojMjesta:
+        width 149px
+
+    labela-1, labela-2, labela-3, labela-4:
+        width 150px
+        height 18px
+
+    labela-1:
+        above labela-2 21px
+        left-of naziv 4px
+
+    labela-2:
+        above labela-3 21px
+        left-of brojMjesta 4px
+
+    labela-3:
+        above labela-4 20px
+        left-of odgovornaOsoba 4px
+
+    labela-4:
+        left-of sprat 4px
+
+    unos:
+        below labela-4 20px
+        height 36px
+        width 150px
+        left-of viewport -228px
